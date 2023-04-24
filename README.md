@@ -1,5 +1,5 @@
-# 50Project50DaysHindi
-50 unique mini-projects to sharpen your HTML, CSS &amp; JavaScript skills in Hindi
+# 50Project50Days
+50 unique mini-projects to sharpen your HTML, CSS &amp; JavaScript skills
 
 What you'll learn
 
