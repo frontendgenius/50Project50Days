@@ -5,7 +5,7 @@ const incompleteTaskHolder = document.getElementById("incomplete-tasks");
 const completedTasksHolder = document.getElementById("completed-tasks");
 
 // Create a new task list item
-const createNewTaskElement = taskString => {
+const createNewTaskElement = (taskString) => {
   const listItem = document.createElement("li");
   const checkBox = document.createElement("input");
   const label = document.createElement("label");

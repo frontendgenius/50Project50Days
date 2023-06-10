@@ -3,15 +3,15 @@ body {
   background: #fff;
   color: #333;
   font-family: Lato, sans-serif;
-  background: rgb(27,8,76);
-  background: radial-gradient(circle, rgba(27,8,76,1) 35%, rgba(59,118,128,1) 100%);
+  background: rgb(27, 8, 76);
+  background: radial-gradient(circle, rgba(27, 8, 76, 1) 35%, rgba(59, 118, 128, 1) 100%);
 }
 
 .container {
   display: block;
   width: 400px;
   margin: 50px auto 0;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   padding: 2rem;
   border-radius: 10px;
   background: #ededed;
@@ -79,7 +79,7 @@ input[type='text'] {
 
 input[type='text']:focus {
   color: #333;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 /* New Task */
@@ -93,7 +93,7 @@ input#new-task {
   width: 318px;
 }
 
-p > button:hover {
+p>button:hover {
   color: #0FC57C;
 }
 
@@ -104,24 +104,24 @@ li {
   border-bottom: 1px solid #eee;
 }
 
-li > input[type='checkbox'] {
+li>input[type='checkbox'] {
   margin: 0 10px;
   position: relative;
   top: 15px;
 }
 
-li > label {
+li>label {
   font-size: 18px;
   line-height: 40px;
   width: 237px;
   padding: 0 0 0 11px;
 }
 
-li > input[type='text'] {
+li>input[type='text'] {
   width: 226px;
 }
 
-li > .delete:hover {
+li>.delete:hover {
   color: #CF2323;
 }
 
