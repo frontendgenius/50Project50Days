@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+body {
+  font-family: sans-serif;
+  background-color: #3f3fff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner-container {
+  margin: 3rem;
+}
+
+button {
+  min-width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid plum;
+  cursor: pointer;
+  color: purple;
+  font-weight: 600;
+}
+
+.sound-board {
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 700;
+  font-size: 6rem;
+  text-shadow: -15px 5px 20px #ced0d3;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #F9f1cc;
+  text-shadow: 5px 5px 0px #FFB650,
+    10px 10px 0px #FFD662,
+    15px 15px 0px #FF80BF,
+    20px 20px 0px #EF5097,
+    25px 25px 0px #6868AC,
+    30px 30px 0px #90B1E0;
+}
