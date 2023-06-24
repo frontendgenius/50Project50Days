@@ -19,8 +19,8 @@ async function generateJoke() {
 
   const res = await fetch("https://icanhazdadjoke.com", {
     headers: {
-      Accept: "application/json"
-    }
+      Accept: "application/json",
+    },
   });
   if (res.ok) {
     const data = await res.json();
