@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e5ec;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    min-height: 60vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #00000055,
+        -5px -5px 15px #ffffff88,
+        inset 5px 5px 20px #ffffff99,
+        inset -5px -5px 20px #00000055;
+}
+
+.watch {
+    width: 70%;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 15px #00000055,
+        inset -10px -10px 10px #ffffffcc;
+    font-size: 2.5rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.controls {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    all: unset;
+    width: 50px;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #00000055, -5px -5px 10px #ffffffcc;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 10px #00000055, inset -5px -5px 10px #ffffffcc;
+}
+
+button:active .fa-solid {
+    font-size: 1.9rem;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    transition: font-size 0.3s ease;
+}
+
+/* Add animation to watch class when change occurs */
+.watch {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.watch.active {
+    box-shadow: inset 5px 5px 15px #00000055, inset -5px -5px 10px #ffffffcc;
+    transform: scale(1.05);
+}
+
+/* Add animation to buttons when change occurs */
+button {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button.active {
+    box-shadow: 5px 5px 15px #00000055, -5px -5px 15px #ffffff88,
+        inset 5px 5px 20px #ffffff99, inset -5px -5px 20px #00000055;
+    transform: scale(1.05);
+}
